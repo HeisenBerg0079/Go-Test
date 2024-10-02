@@ -9,9 +9,9 @@ func TestPyramidPattern_PrintPyramid(t *testing.T) {
 		expected string
 	}{
 		{
-			name:     "4 rows pyramid",
-			p:        &PyramidPattern{Rows: 4},
-			expected: "   *   \n  ***  \n ***** \n   *   \n  ***  ",
+			name:     "5 rows pyramid",
+			p:        &PyramidPattern{Rows: 5},
+			expected: "    *    \n   ***   \n  *****  \n ******* \n    *    \n   ***   ",
 		},
 	}
 	for _, tt := range tests {
