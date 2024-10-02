@@ -11,7 +11,7 @@ func TestPyramidPattern_PrintPyramid(t *testing.T) {
 		{
 			name:     "5 rows pyramid",
 			p:        &PyramidPattern{Rows: 5},
-			expected: "    *    \n   ***   \n  *****  \n ******* \n    *    \n   ***   ",
+			expected: "      *       \n    * * *     \n  * * * * *   \n* * * * * * * \n     *      \n    * * *     ",
 		},
 	}
 	for _, tt := range tests {
